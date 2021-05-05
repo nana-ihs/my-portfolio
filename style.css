@@ -1,3 +1,18 @@
+.header {
+  background-color: #f0ffff;
+  height: 110px;
+  margin-top: -30px;
+}
+.header__title {
+  padding-top: 20px;
+  margin-left: 60px;
+  font-size: 30px;
+}
+.introduction {
+  background-color: aliceblue;
+  margin-top: -30px;
+  padding-top: 30px;
+}
 .introduction__title {
   font-size: 80px;
   margin-top: 80px;
