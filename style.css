@@ -1,17 +1,22 @@
+body {
+  font-family: "Meiryo";
+}
 .header {
-  background-color: #f0ffff;
+  background-color: #b0e0e6;
   height: 110px;
-  margin-top: -30px;
+  margin-top: -40px;
 }
 .header__title {
-  padding-top: 20px;
+  color: #483d8b;
+  padding-top: 25px;
   margin-left: 60px;
-  font-size: 30px;
+  font-size: 40px;
 }
 .introduction {
-  background-color: aliceblue;
+  background-color: #f0ffff;
   margin-top: -30px;
   padding-top: 30px;
+  padding-bottom: 70px;
 }
 .introduction__title {
   font-size: 80px;
@@ -23,9 +28,87 @@
   margin-left: 750px;
 }
 .question {
-  margin-top: -150px;
+  margin-top: -300px;
   margin-left: 80px;
+  background-color: #f0ffff;
+}
+#school {
+  width: 200px;
+  height: 100px;
+  color: #dc143c;
+  background: #ffb6c1;
+  border: none;
+  border-radius: 50%;
+  font-size: 25px;
+  position: absolute;
+  top: 350px;
+  left: 90px;
+}
+
+#work {
+  width: 200px;
+  height: 100px;
+  color: #006400;
+  background: #adff2f;
+  border: none;
+  border-radius: 50%;
+  font-size: 25px;
+  position: absolute;
+  top: 480px;
+  left: 250px;
+}
+#club {
+  width: 200px;
+  height: 100px;
+  color: #ff8c00;
+  background: #ffd700;
+  border: none;
+  border-radius: 50%;
+  font-size: 25px;
+  position: absolute;
+  top: 350px;
+  left: 420px;
+}
+#display1 {
+  font-size: 28px;
+  color: #c71585;
+  position: absolute;
+  top: 425px;
+  left: 90px;
+}
+#display2 {
+  font-size: 28px;
+  color: #3cb371;
+  position: absolute;
+  top: 555px;
+  left: 298px;
+}
+#display3 {
+  font-size: 28px;
+  color: #ff6347;
+  position: absolute;
+  top: 425px;
+  left: 400px;
 }
 .like {
+  margin-top: -20px;
+  padding-top: 20px;
+  height: 300px;
+  background-color: #f0ffff;
+}
+.like__iine {
   margin-left: 80px;
+  margin-top: 180px;
+}
+#show {
+  margin-left: 150px;
+}
+#good {
+  position: absolute;
+  top: 700px;
+  left: 90px;
+}
+.footer {
+  height: 90px;
+  background-color: #b0e0e6;
 }

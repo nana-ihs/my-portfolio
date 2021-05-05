@@ -1,38 +1,40 @@
-const age = document.getElementById("age");
+const school = document.getElementById("school");
 const work = document.getElementById("work");
 const club = document.getElementById("club");
 const good = document.getElementById("good");
-
 let count = 5678;
 
 var pics_src = new Array(
-  "pics/kikai.JPG",
-  "pics/DSCF0294.JPG",
-  "pics/DSC-0046-2.JPG"
+  "pics/pic1.JPG",
+  "pics/pic2.JPG",
+  "pics/pic3.JPG",
+  "pics/pic4.JPG",
+  "pics/pic6.JPG"
 );
 var num = -1;
 
 slideshow_timer();
 function slideshow_timer() {
-  if (num == 2) {
+  if (num == 4) {
     num = 0;
   } else {
-    num++;
+    num += 1;
   }
   document.getElementById("mypic").src = pics_src[num];
   setTimeout("slideshow_timer()", 2500);
 }
 
-age.onclick = function () {
-  display.textContent = "横浜市立大学です";
+school.onclick = function () {
+  display1.textContent = "横浜市立大学です";
 };
 work.onclick = function () {
-  display.textContent = "ユニクロの売り場歩いてます";
+  display2.textContent = "ユ〇クロ";
 };
 club.onclick = function () {
-  display.textContent = "釣り部（幽霊部員）";
+  display3.textContent = "釣り部（幽霊部員）";
 };
+
 good.onclick = function () {
-  count += 1;
-  show.textContent = count;
+  count += 3;
+  number.textContent = count;
 };
