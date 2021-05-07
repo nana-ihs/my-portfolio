@@ -28,7 +28,7 @@ school.onclick = function () {
   display1.textContent = "横浜市立大学です";
 };
 work.onclick = function () {
-  display2.textContent = "ユ〇クロ";
+  display2.textContent = "ユ二クロです";
 };
 club.onclick = function () {
   display3.textContent = "釣り部（幽霊部員）";
